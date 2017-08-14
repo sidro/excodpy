@@ -1,3 +1,3 @@
-print("Hello World!!!")
-print("mama")
-
+def hello():
+    print("Hello World!!!")
+hello()
