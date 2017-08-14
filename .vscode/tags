@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+A	../python-exemple/firedeexecutie.py	/^class A(Thread):$/;"	kind:class	line:6
+Arma	../python-exemple/clase.py	/^class Arma(Lucruri):$/;"	kind:class	line:15
+Arma	../python-exemple/constructor.py	/^class Arma(Lucruri):$/;"	kind:class	line:13
+BankAccount	../python-exemple/python_class.py	/^class BankAccount(object):$/;"	kind:class	line:1
+Jucator	../python-exemple/proprietati.py	/^class Jucator:$/;"	kind:class	line:1
+Lucruri	../python-exemple/clase.py	/^class Lucruri:$/;"	kind:class	line:1
+Lucruri	../python-exemple/constructor.py	/^class Lucruri:$/;"	kind:class	line:1
+Thread	../python-exemple/firedeexecutie.py	/^from threading import Thread$/;"	kind:namespace	line:1
+Variabile	../python-exemple/variab_in_clase.py	/^class Variabile:$/;"	kind:class	line:4
+__init__	../python-exemple/constructor.py	/^    def __init__(self, pret, putere, viteza):$/;"	kind:member	line:15
+__init__	../python-exemple/constructor.py	/^    def __init__(self, pret, putere, viteza):$/;"	kind:member	line:3
+__init__	../python-exemple/firedeexecutie.py	/^    def __init__(self, a):$/;"	kind:member	line:7
+__init__	../python-exemple/python_class.py	/^    def __init__(self, initial_balance=0):$/;"	kind:member	line:3
+box	../python-exemple/variabile.py	/^def box():$/;"	kind:function	line:9
+clase.py	../python-exemple/clase.py	1;"	kind:file	line:1
+constructor.py	../python-exemple/constructor.py	1;"	kind:file	line:1
+depozit	../python-exemple/python_class.py	/^    def depozit(self, amount):$/;"	kind:member	line:6
+firedeexecutie.py	../python-exemple/firedeexecutie.py	1;"	kind:file	line:1
+fred	../python-exemple/variab_in_clase.py	/^    fred = 1$/;"	kind:variable	line:6
+fred	../python-exemple/variabile.py	/^fred = 1$/;"	kind:variable	line:5
+getNume	../python-exemple/proprietati.py	/^    def getNume(self):$/;"	kind:member	line:6
+hello	../python-exemple/hello.py	/^def hello():$/;"	kind:function	line:1
+hello.py	../python-exemple/hello.py	1;"	kind:file	line:1
+jucator	../python-exemple/proprietati.py	/^jucator = Jucator()$/;"	kind:variable	line:11
+my_account	../python-exemple/python_class.py	/^my_account = BankAccount(15)$/;"	kind:variable	line:14
+nume	../python-exemple/proprietati.py	/^    nume = property(getNume, setNume, '', "Proprietati")$/;"	kind:variable	line:9
+overdrawn	../python-exemple/python_class.py	/^    def overdrawn(self):$/;"	kind:member	line:12
+pete	../python-exemple/variab_in_clase.py	/^    pete = 2$/;"	kind:variable	line:7
+pete	../python-exemple/variabile.py	/^pete = 2$/;"	kind:variable	line:6
+printValoare	../python-exemple/clase.py	/^    def printValoare(self):$/;"	kind:member	line:8
+printValoare	../python-exemple/constructor.py	/^    def printValoare(self):$/;"	kind:member	line:8
+proprietati.py	../python-exemple/proprietati.py	1;"	kind:file	line:1
+python_class.py	../python-exemple/python_class.py	1;"	kind:file	line:1
+random	../python-exemple/firedeexecutie.py	/^import random$/;"	kind:namespace	line:3
+run	../python-exemple/firedeexecutie.py	/^    def run(self):$/;"	kind:member	line:11
+setNume	../python-exemple/proprietati.py	/^    def setNume(self, nume):$/;"	kind:member	line:3
+setValoare	../python-exemple/clase.py	/^    def setValoare(self, pret, putere, viteza):$/;"	kind:member	line:3
+t	../python-exemple/firedeexecutie.py	/^    t = A(i)$/;"	kind:variable	line:18
+time	../python-exemple/firedeexecutie.py	/^import time$/;"	kind:namespace	line:2
+topor	../python-exemple/clase.py	/^topor = Arma()$/;"	kind:variable	line:19
+topor	../python-exemple/constructor.py	/^topor = Arma(30, 50, 60)$/;"	kind:variable	line:20
+v	../python-exemple/variab_in_clase.py	/^v = Variabile()$/;"	kind:variable	line:13
+variab_in_clase.py	../python-exemple/variab_in_clase.py	1;"	kind:file	line:1
+variabile	../python-exemple/variab_in_clase.py	/^    def variabile(self):$/;"	kind:member	line:9
+variabile.py	../python-exemple/variabile.py	1;"	kind:file	line:1
+withdraw	../python-exemple/python_class.py	/^    def withdraw(self, amount):$/;"	kind:member	line:9
