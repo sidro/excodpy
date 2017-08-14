@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 
-
 global fred, pete
 fred = 1
 pete = 2
