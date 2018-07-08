@@ -16,6 +16,7 @@ class Arma(Lucruri):
 
     print("o arma noua")
 
+
 topor = Arma()
 topor.setValoare(75, 60, 50)
 topor.printValoare()

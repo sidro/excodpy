@@ -6,7 +6,6 @@ pete = 2
 
 
 def box():
-
     dave = fred + pete
     return vars()
 

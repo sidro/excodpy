@@ -1,23 +1,21 @@
 from threading import Thread
 import time
-import random
-
 
 class A(Thread):
-    def __init__(self, a):
+    def __init__(self, an):
         Thread.__init__(self)
-        self.a = a
+        self.an = an
 
     def run(self):
+        print("Firul: {}; ".format(self.an), end="\n.»")
         time.sleep(1)
-        print("Firul: {}".format(self.a))
 
 
-print("Se executa Threadurile\n")
+print("Se executa Threadurile",end="\n")
 for i in range(5):
     t = A(i)
     t.setDaemon(True)
     t.start()
-time.sleep(4)
+time.sleep(5)
 t.join()
-print("\nExecutie threaduri terminata!\n")
+print("\nExecutie threaduri terminata!")
