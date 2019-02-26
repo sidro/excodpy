@@ -1,5 +1,5 @@
 class BankAccount(object):
-    global balance
+    #global balance
     balance = 0
 
     def __init__(self, initial_balance):

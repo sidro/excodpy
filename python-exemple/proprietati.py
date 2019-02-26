@@ -8,6 +8,7 @@ class Jucator:
 
     nume = property(getNume, setNume, '', "Proprietati")
 
-jucator = Jucator()
-jucator.nume = 'ionel'
-print(jucator.nume, Jucator.nume.__doc__)
+if __name__ == '__main__':
+    jucator = Jucator()
+    jucator.nume = 'ionel'
+    print(jucator.nume, Jucator.nume.__doc__)
