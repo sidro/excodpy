@@ -9,6 +9,3 @@ class Variabile:
 		self.dave	= fred + pete
 		return vars()
 
-v = Variabile()
-print(v.variabile())
-print(v.dave)
