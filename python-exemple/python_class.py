@@ -1,6 +1,5 @@
 class BankAccount(object):
-    global balance
-    balance = 0
+
 
     def __init__(self, initial_balance):
         self.balance = initial_balance
@@ -17,6 +16,12 @@ class BankAccount(object):
     def bal(self):
         return self.balance
 
-my_account = BankAccount(15)
-my_account.withdraw(5)
-print(my_account.bal())
+
+def main():
+    my_account = BankAccount(15)
+    my_account.withdraw(5)
+    print(my_account.bal())
+
+
+if __name__ == "__main__":
+    main()
