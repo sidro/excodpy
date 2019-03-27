@@ -1,5 +1,10 @@
 class BankAccount(object):
+<<<<<<< HEAD
 
+=======
+    #global balance
+    balance = 0
+>>>>>>> 35741eacd0d09a3c0632de450c3f5630b20527cb
 
     def __init__(self, initial_balance):
         self.balance = initial_balance
