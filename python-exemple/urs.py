@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Mono:
 
     def __init__(self, nume="Vulpea", culoare="portocalie", inaltime=65):

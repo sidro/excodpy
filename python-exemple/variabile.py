@@ -10,4 +10,3 @@ def box():
 
 
 print(box())
-

@@ -7,8 +7,8 @@ def my_decorator(func):
 
 
 def do_twice(func):
-	# *args sau **kwargs post fi puse ca si variabile in loc de args
-    def wrapper_do_twice(args): 
+    # *args sau **kwargs post fi puse ca si variabile in loc de args
+    def wrapper_do_twice(args):
         func(args)
         func(args)
     return wrapper_do_twice
@@ -17,6 +17,7 @@ def do_twice(func):
 @my_decorator
 def say_whee():
     print("Whee!")
+
 
 @do_twice
 def say_whe(name):
