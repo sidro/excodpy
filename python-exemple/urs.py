@@ -11,6 +11,6 @@ class Mono:
         
 m = Mono("Urs", "bruna", 200)
 m.prezinta()
-#m2 = Mono()        # Prima varianta de a construi
-#m2.prezinta()      # un obiect Mono si a apela functia prezinta
+# m2 = Mono()        # Prima varianta de a construi
+# m2.prezinta()      # un obiect Mono si a apela functia prezinta
 Mono().prezinta()   # A doua metoda 

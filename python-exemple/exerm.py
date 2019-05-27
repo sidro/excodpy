@@ -4,6 +4,7 @@ def decorat(funct):
         return name
     return func_wrapper
 
+
 @decorat
 def m():
     return 'nume'

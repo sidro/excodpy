@@ -1,7 +1,7 @@
 #!/usb/bin/python3
 
 
-def douaVal():
+def doua_val():
     a = 6
     b = 9
     return a, b
@@ -14,7 +14,7 @@ def lista(val):
 
 
 def main():
-    a = douaVal()
+    a = doua_val()
     print(lista(a))
 
 

@@ -1,7 +1,8 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QDesktopWidget, QGridLayout
-from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
+# from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
+
 
 class App(QWidget):
 
@@ -17,9 +18,9 @@ class App(QWidget):
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
-        #qtRectangle = self.frameGeometry()
-        #self.centerPoint = QDesktopWidget().availableGeometry().center()
-        #qtRectangle.moveCenter(self.centerPoint)
+        # qtRectangle = self.frameGeometry()
+        # self.centerPoint = QDesktopWidget().availableGeometry().center()
+        # qtRectangle.moveCenter(self.centerPoint)
         button = QPushButton('PyQt5 button', self)
         button.setToolTip('This is an example button')
         button.move(100, 70)

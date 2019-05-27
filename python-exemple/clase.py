@@ -1,6 +1,6 @@
 class Lucruri:
 
-    def setValoare(self, pret, putere, viteza):
+    def __init__(self, pret, putere, viteza):
         self.pret = pret
         self.putere = putere
         self.viteza = viteza
@@ -13,10 +13,8 @@ class Lucruri:
 
 
 class Arma(Lucruri):
-    print("o arma noua")
+    print("O arma noua")
 
 
-topor = Arma()
-topor.setValoare(75, 60, 50)
+topor = Arma(75, 60, 50)
 topor.printValoare()
-

@@ -12,7 +12,6 @@ class A(Thread):
         print("Firul: {}; ".format(self.an), end="\n.»")
         time.sleep(1)
 
-<<<<<<< HEAD
 
 print("Se executa Threadurile", end="\n")
 for i in range(5):
@@ -22,9 +21,9 @@ for i in range(5):
 time.sleep(5)
 t.join()
 print("\nExecutie threaduri terminata!")
-=======
+
 if __name__ == '__main__':
-    print("Se executa Threadurile",end="\n")
+    print("Se executa Threadurile", end="\n")
     for i in range(5):
         t = A(i)
         t.setDaemon(True)
@@ -32,4 +31,3 @@ if __name__ == '__main__':
     time.sleep(5)
     t.join()
     print("\nExecutie threaduri terminata!")
->>>>>>> 35741eacd0d09a3c0632de450c3f5630b20527cb
