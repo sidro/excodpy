@@ -6,8 +6,8 @@ def decorat(funct):
 
 
 @decorat
-def m():
+def m(nume):
     return 'nume'
 
-
-print(m('Ovidiu'))
+mine = m("Ovidiu")
+print(mine)
