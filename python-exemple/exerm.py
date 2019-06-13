@@ -13,5 +13,6 @@ def decorat(funct):
 def mimi(nume):
     return 'nume'
 
+
 minemi = mimi("Ovidiu")
 print(minemi)
