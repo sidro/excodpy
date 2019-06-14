@@ -1,13 +1,18 @@
 def decorat(funct):
+    """docstring for decorat function"""
+
     def func_wrapper(name):
+        '''func_wrapper'''
+
         print(name)
         return name
     return func_wrapper
 
 
 @decorat
-def m():
+def mimi(nume):
     return 'nume'
 
 
-print(m('Ovidiu'))
+minemi = mimi("Ovidiu")
+print(minemi)
