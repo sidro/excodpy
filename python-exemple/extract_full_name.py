@@ -14,7 +14,7 @@ def extract_full_name3(names):
 
     return list(
         map(lambda val: "{} {}".format(val['first'], val['last']), names)
-               )
+    )
 
 
 names = [

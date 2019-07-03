@@ -13,6 +13,7 @@ def list_manipulation(list_, command, location, value=0):
             return list_
     else:
         return "Something is WRONG!"
-    
+
+
 list_manip = list_manipulation([2, 5, 7, 1, 9], "add", "end", 1)
 print(list_manip)

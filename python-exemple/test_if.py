@@ -1,5 +1,5 @@
 from random import choice
-food = choice(['apple','grape', 'bacon', 'steak', 'worm', 'dirt'])
+food = choice(['apple', 'grape', 'bacon', 'steak', 'worm', 'dirt'])
 # NO TOUCHING =============================================
 
 print(f"Random food is {food}")

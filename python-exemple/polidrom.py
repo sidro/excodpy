@@ -3,6 +3,7 @@ def is_palindrome(string):
         return True
     return False
 
+
 print(is_palindrome("ere e ere"))
 print(is_palindrome("lama"))
 print(is_palindrome("Ama"))

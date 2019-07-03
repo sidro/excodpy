@@ -1,14 +1,14 @@
 def interleave(name_1, name_2):
     '''solution 1. '''
-    zipy = zip(name_1, name_2) # create a zip Iterable object
-    string =""
+    zipy = zip(name_1, name_2)  # create a zip Iterable object
+    string = ""
     for n in zipy:
-        string += "".join(n) 
+        string += "".join(n)
     return string
+
 
 print(interleave('hi', 'ha'))
 print(interleave('aaa', 'zzz'))
-
 
 
 def interleave2(name_1, name_2):
