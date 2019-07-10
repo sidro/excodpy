@@ -11,7 +11,7 @@ class Exemplu:
         self.num += 1
 
 
-e =  Exemplu(2)
+e = Exemplu(2)
 print(e.addToNum().addToNum())
 print(e.num)
 e.classicAdd()
