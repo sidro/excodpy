@@ -12,8 +12,8 @@ class Exemplu:
 
 
 e = Exemplu(2)
-print(e.addToNum().addToNum())
+e.addToNum().addToNum().addToNum()
 print(e.num)
-e.classicAdd()
-e.classicAdd().classicAdd()
-print(e.num)
+# e.classicAdd()
+# e.classicAdd().classicAdd()
+# print(e.num)
