@@ -1,3 +1,6 @@
+#!/usb/bin/python3
+
+
 class Jucator:
 
     def set_nume(self, nume):
