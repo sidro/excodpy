@@ -12,12 +12,5 @@ def partition(list_, funct):
             [li for li in list_ if not funct(li)]]
 
 
-def part(l, fnc):
-    return [[l.pop(i) for i in l if fnc(i)], l]
-
-
-print(partition([1, 2, 3, 4], isEven))
-
 print(isEven(3))
-
-print(part([1, 2, 3, 4, 5, 6], isEven))
+print(partition([1, 2, 3, 4], isEven))
