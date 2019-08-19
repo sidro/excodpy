@@ -1,5 +1,6 @@
 from random import shuffle
 
+
 class Card:
 
     def __init__(self, value, suit):
