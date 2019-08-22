@@ -1,3 +1,6 @@
+#!/usb/bin/python3
+
+
 class Exemplu:
 
     def __init__(self, num):

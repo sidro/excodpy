@@ -1,4 +1,5 @@
 from functools import wraps
+import handout
 
 
 def ensure_authorized(fn):
@@ -16,3 +17,8 @@ def ark(*args, **kwargs):
 
 
 print(ark(role="admin"))
+
+doc = handout.Handout('~/handout')
+doc.add_text("method", ark(role="nimda"))
+doc.add_text("method", ark(role="admin"))
+doc.show()
