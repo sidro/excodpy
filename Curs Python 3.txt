@@ -1,0 +1,35 @@
+PYTHON3 
+
+CUPRINS CURS:
+    
+    1. Numbers, operators and comments;
+    2. Variables and strings;
+    3. Boolean and conditional logic;
+    4. Looping in Python 3;
+    5. Lists;
+    6. Lists Comprehensions;
+    7. Dictionaries;
+    8. Tuples and sets;
+    9. Functions;
+    10. Lambdas and built-in Functions;
+    11. Debugging and Error Handling;
+    12. Modules;
+        - Creating modules;
+        - Compiled Python files;
+        - Packages;
+        - Sub-Packages;
+        - Intra-Packages;
+        - The "DIR" Function;
+        - Executing modules as scripts;
+    13. Object Oriented Programming;
+    14. Abstract base classes;
+    15. Data classes;
+    16. Iterators and generators;
+    17. Decorators;
+    18. Testing with Python 3;
+    19. File IO;
+    20. Working with CSV;
+    21. HTTP requests with Python 3;
+    22. Web scraping with BeautifulSoup;
+    23. Regular expressions;
+    24. Working with sqlite.
